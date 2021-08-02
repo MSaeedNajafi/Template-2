@@ -11,6 +11,9 @@ import {
 import Icon1 from "../../images/svg-4.svg";
 import Icon2 from "../../images/svg-5.svg";
 import Icon3 from "../../images/svg-6.svg";
+import Icon4 from "../../images/svg-1.svg";
+import Icon5 from "../../images/svg-2.svg";
+import Icon6 from "../../images/svg-3.svg";
 
 const ServicesElements = () => {
   return (
@@ -36,6 +39,30 @@ const ServicesElements = () => {
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon3} />
+            <ServicesH2>Increase Profit</ServicesH2>
+            <ServicesP>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s.
+            </ServicesP>
+          </ServicesCard>
+          <ServicesCard>
+            <ServicesIcon src={Icon4} />
+            <ServicesH2>Increase Profit</ServicesH2>
+            <ServicesP>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s.
+            </ServicesP>
+          </ServicesCard>
+          <ServicesCard>
+            <ServicesIcon src={Icon5} />
+            <ServicesH2>Increase Profit</ServicesH2>
+            <ServicesP>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s.
+            </ServicesP>
+          </ServicesCard>
+          <ServicesCard>
+            <ServicesIcon src={Icon6} />
             <ServicesH2>Increase Profit</ServicesH2>
             <ServicesP>
               Lorem Ipsum has been the industry's standard dummy text ever since
