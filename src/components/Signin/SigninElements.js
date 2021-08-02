@@ -16,8 +16,8 @@ export const Container = styled.div`
 
   background: linear-gradient(
     180deg,
-    rgba(1, 147, 86, 1) 0%,
-    rgba(10, 201, 122, 1) 100%
+    hsla(15, 79%, 69%, 1) 0%,
+    hsla(15, 100%, 57%, 1) 100%
   );
 `;
 

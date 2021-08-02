@@ -95,20 +95,17 @@ const Navbar = ({ toggle }) => {
                   Services
                 </NavLink>
               </NavItem>
-              <NavBtn>
-                <NavBtnLink
-                  onClick={() => {
-                    console.log("pressed");
-                  }}
-                  to="/signin"
-                >
-                  Sign In
-                </NavBtnLink>
-              </NavBtn>
             </NavMenu>
-            {/* <NavBtn>
-          <NavBtnLink to="/Link4">Click Here</NavBtnLink>
-        </NavBtn> */}
+            <NavBtn>
+              <NavBtnLink
+                onClick={() => {
+                  console.log("pressed");
+                }}
+                to="/signin"
+              >
+                Sign In
+              </NavBtnLink>
+            </NavBtn>
           </NavBarCotainer>
         </Nav>
       </IconContext.Provider>
