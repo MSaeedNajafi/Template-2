@@ -8,11 +8,11 @@ const general = {
 
 const COL = {
   //general
-  btnPrimaryColor: "#01bf71",
+  btnPrimaryColor: "#ef9273",
   btnSecondaryColor: "#010606",
   btnTextColor: "#010606",
-  topTitleColor: "#01bf71",
-  activeColor: "#01bf71",
+  topTitleColor: "#ef9273",
+  activeColor: "#ef9273",
   btnSecondaryTextColor: "#fff",
   //navigation
   btnNavTextColor: "#010606",
@@ -25,7 +25,7 @@ const COL = {
   sideBarTextColor: "#fff",
   iconColro: "#fff",
   sideBarBtnHover: "#fff",
-  sideBarTextHoverColor: "#01bf71",
+  sideBarTextHoverColor: "#ef9273",
   //Info
   infoContainer: "#010606",
   infoSecondaryContainer: "#f9f9f9",
@@ -46,14 +46,14 @@ const COL = {
   //footer
   footerContainerBckColor: "#101522",
   footerLinkItemsColor: "#fff",
-  FooterLinkOnHoverColor: "#01bf71",
+  FooterLinkOnHoverColor: "#ef9273",
   socialMediaIconColor: "#fff",
   footerSocialMediaTextColor: "#fff",
   //signin
   signinIconColor: "#fff",
   formBckGround: "#010101",
   formH1Color: "#fff",
-  formBtnBckColor: "#01bf71",
+  formBtnBckColor: "#ef9273",
   formBtnTextColor: "#fff",
   formSpanColor: "#fff",
 };
