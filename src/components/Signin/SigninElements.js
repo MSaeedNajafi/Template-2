@@ -14,10 +14,15 @@ export const Container = styled.div`
   // position: relative;
   // z-index: 1;
 
+  // background: linear-gradient(
+  //   180deg,
+  //   hsla(15, 79%, 69%, 1) 0%,
+  //   hsla(15, 100%, 57%, 1) 100%
+  // );
   background: linear-gradient(
     180deg,
-    hsla(15, 79%, 69%, 1) 0%,
-    hsla(15, 100%, 57%, 1) 100%
+    hsl(13.2, 86.5%, 82.5%) 0%,
+    hsl(15.1, 100%, 57.1%) 100%
   );
 `;
 

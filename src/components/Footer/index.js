@@ -23,6 +23,8 @@ import {
   SocialIconLink,
 } from "./FooterElements";
 
+import COL from "../Colors";
+
 const Footer = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
@@ -69,7 +71,7 @@ const Footer = () => {
           <SocialMedia>
             <SocialMediaWrap>
               <SocialLogo onClick={toggleHome} to="/">
-                iamSaeed
+                iam<span style={{ color: COL.btnPrimaryColor }}>$</span>aeed
               </SocialLogo>
               <WebsiteRights>
                 Saeed Najafi © {new Date().getFullYear()} All rights reserved.

@@ -12,9 +12,12 @@ import {
   MobileIcon,
   NavItem,
   NavLogoLink,
+  NavLogoImg,
+  ImgWrap,
 } from "./NavbarElements";
 import { IconContext } from "react-icons/lib";
 import { FaBars } from "react-icons/fa";
+import img1 from "../../images/logo.png";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -40,9 +43,13 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav scrollNav={scrollNav}>
           <NavBarCotainer>
-            <NavLogoLink to="/" onClick={toggleHome}>
-              iamSaeed
-            </NavLogoLink>
+            {/* <NavLogoLink to="/" onClick={toggleHome}> */}
+            <ImgWrap>
+              <NavLogoImg src={img1} alt="logo" to="/" onClick={toggleHome} />
+            </ImgWrap>
+            {/* iam$aeed
+            </NavLogoImg> */}
+            {/* </NavLogoLink> */}
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>

@@ -1,7 +1,7 @@
 const general = {
   primaryColor: "#01bf71",
   secondaryColor: "#010606",
-  // primaryColor: "#ef9273",
+  // primaryColor: "#ef9273", 1c6464
   // secondaryColor: "#010606",
   textANDTitle: "#fff",
 };

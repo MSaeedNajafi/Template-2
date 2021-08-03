@@ -11,13 +11,15 @@ import {
   FormInput,
   Text,
 } from "./SigninElements";
-
+import COL from "../Colors";
 const SignIn = () => {
   return (
     <>
       <Container>
         <FormWrap>
-          <Icon to="/">iamSaeed</Icon>
+          <Icon to="/">
+            iam<span style={{ color: COL.btnPrimaryColor }}>$</span>aeed
+          </Icon>
           <FormCotent>
             <Form action="#">
               <FormH1>Sign in to your account</FormH1>

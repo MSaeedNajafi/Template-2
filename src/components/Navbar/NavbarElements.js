@@ -159,3 +159,23 @@ export const NavBtnLink = styled(LinkR)`
     color: ${COL.btnInfoColor};
   }
 `;
+
+export const NavLogoImg = styled.img`
+  width: 100%;
+  // margin: 0 0 10px 0;
+  padding-right: 0;
+`;
+
+export const ImgWrap = styled.div`
+  max-width: 150px;
+  height: 100%;
+
+  justify-self: flex-start;
+  display: flex;
+  cursor: pointer;
+  // font-size: 1.5rem;
+  align-items: center;
+  margin-left: 24px;
+  // font-weight: bold;
+  // text-decoration: none;
+`;
